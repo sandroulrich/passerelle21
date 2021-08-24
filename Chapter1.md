@@ -14,10 +14,10 @@ Please post below an ascii image. Each image should be seperated by three hyphen
 | o_o |
  \_^_/
 
-"""
+~~~
 |\---/|
 | o_o |
  \_^_/
-"""
+~~~
 
 ---

@@ -2,6 +2,9 @@
 
 ## Video intro and tutorial
 
+ - Git for designers? [why bother](https://www.youtube.com/watch?v=4S3h5L21KlA)?
+ - Github for poets :) from [Coding Train](https://www.youtube.com/watch?v=BCQHnlnPusY)
+
 ## Setup
 1. Install and setup [git](https://git-scm.com/) on your computer. For beginners a graphical user-interface is quite handy. We will work with the [Github Desktop client](https://desktop.github.com/)
 

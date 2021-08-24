@@ -1,23 +1,80 @@
-# Fill in the Blanks
+# Quick intro
 
-This text contains some _______ .  Fill the void and be careful with commits and merges...
+## Video intro and tutorial
 
-## HTML text
+## Setup
+1. Install and setup [git](https://git-scm.com/) on your computer. For beginners a graphical user-interface is quite handy. We will work with the [Github Desktop client](https://desktop.github.com/)
 
-HTML is a language for _______ and the abbreviation of the English term "Hypertext Markup _______". HTML is the _______ used for all pages on the Internet and has existed since 1992. A hypertext is a _______ that is linked to other texts. This is done with a link - as html tag a link is written as _______. 
+In case you want to work with the commandline use this for configuration:
+    ~~~bash
+    $ git config --global user.name "Firstname Lastname"
+    $ git config --global user.email "example@mail.com"
+    ~~~
 
-## Ascii art
+2. Create an account (or login) to GitHub at [git](https://github.com)
+3. (optional) Generate a ssh-key and add it to your GitHub account (for more 
+   information [click here](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
-Please post below an ascii image. Each image should be seperated by three hyphens like this ---
+    Open your terminal app and generate your keys:
+    ~~~bash
+    $ ssh-keygen -t rsa -C "example@mail.com"
+    $ cat ~/.ssh/id_rsa.pub
+    ~~~
 
-|\---/|
-| o_o |
- \_^_/
+4. Fork this [repository](https://github.com/fleshgordo/passerelle21)
 
-~~~
-|\---/|
-| o_o |
- \_^_/
-~~~
+## Exercises
 
----
+Making Commits
+
+1. Clone the forked repository to your computer
+
+    ~~~bash
+    $ git clone <url>
+    ~~~
+
+2. Create and add a new file
+
+    ~~~bash
+    $ git add <file>
+    ~~~
+
+3. Commit the new file
+
+    ~~~bash
+    $ git commit -m "message"
+    ~~~
+
+4. Examine the state of your repo with `git status`. 
+
+    ~~~bash
+    $ git status
+    ~~~
+
+5. Edit and save your new file, then add it to the staging area. Finally make a 
+   new commit with the edited file. At all stages use `git status` to see how 
+   your repository changes
+
+    ~~~bash
+    $ git add <file>
+    $ git commit -m "message"
+    ~~~
+
+6. Make some more commits and view the log
+
+    ~~~bash
+    $ git log 
+    ~~~
+
+7. Commit everything you have done so far
+
+    ~~~bash
+    $ git commit -a -m "message"
+    ~~~
+
+8. Push the commits to the server
+
+    ~~~bash
+    $ git push
+    ~~~
+

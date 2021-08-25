@@ -10,10 +10,10 @@
 
 In case you want to work with the commandline use this for configuration:
 
-    ~~~bash
-    $ git config --global user.name "Firstname Lastname"
-    $ git config --global user.email "example@mail.com"
-    ~~~
+~~~bash
+$ git config --global user.name "Firstname Lastname"
+$ git config --global user.email "example@mail.com"
+~~~
 
 2. Create an account (or login) to GitHub at [git](https://github.com)
 3. (optional) Generate a ssh-key and add it to your GitHub account (for more 

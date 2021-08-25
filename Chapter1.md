@@ -9,6 +9,7 @@
 1. Install and setup [git](https://git-scm.com/) on your computer. For beginners a graphical user-interface is quite handy. We will work with the [Github Desktop client](https://desktop.github.com/)
 
 In case you want to work with the commandline use this for configuration:
+
     ~~~bash
     $ git config --global user.name "Firstname Lastname"
     $ git config --global user.email "example@mail.com"
@@ -19,6 +20,7 @@ In case you want to work with the commandline use this for configuration:
    information [click here](https://help.github.com/articles/connecting-to-github-with-ssh/)
 
     Open your terminal app and generate your keys:
+    
     ~~~bash
     $ ssh-keygen -t rsa -C "example@mail.com"
     $ cat ~/.ssh/id_rsa.pub
